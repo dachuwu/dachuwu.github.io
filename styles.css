@@ -109,7 +109,7 @@ h1.name {
 	background-color: #D9E7F8;
 	color: #4A90E2;
 	font-weight: 600;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-left: 20px;
 	border-radius: 5px;
 	display: inline-block;
@@ -142,7 +142,7 @@ h1.name {
 	font-size: 20px;
 	font-weight: 300;
 	color: #81899C;
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .lead {
