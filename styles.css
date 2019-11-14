@@ -116,12 +116,33 @@ h1.name {
 	padding: 15px 25px;
 }
 
+.contact-title {
+	vertical-align: top;
+	background-color: #D9E7F8;
+	color: #4A90E2;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 15px 25px;
+}
+
+.job-title-active , .job-title:hover{
+	transform: scale(1.05);
+	transition: 0.5s;
+	background-color: #fff;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+
+
 .email {
 	display: block;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 300;
 	color: #81899C;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .lead {
@@ -143,6 +164,7 @@ h1.name {
 }
 
 .section-title {
+	color: #000000;
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 15px;
@@ -206,7 +228,7 @@ h1.name {
 }
 
 .card-active , .card:hover{
-	transform: scale(1.05);
+	transform: scale(1.35);
 	transition: 0.5s;
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
@@ -240,12 +262,12 @@ h1.name {
 }
 
 .skill-level h2 {
-	font-size: 95px;
+	font-size: 88px;
 	font-weight: 300;
 	display: inline-block;
 	vertical-align: top;
 	color: #5B6A9A;
-	letter-spacing: -5px;
+	letter-spacing: -8px;
 }
 
 .skill-meta {
