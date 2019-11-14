@@ -206,11 +206,24 @@ h1.name {
 }
 
 .card-active , .card:hover{
-	transform: scale(1.02);
+	transform: scale(1.05);
 	transition: 0.5s;
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
 	cursor: pointer;
+}
+
+
+.card0 {
+	width: 47.9%;
+	height: 200px;
+	background-color: #EEF0F7;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
 }
 
 
