@@ -126,6 +126,10 @@ h1.name {
 }
 
 
+.p-content{
+	font-size: 25px;
+}
+
 .job-title {
 	vertical-align: top;
 	background-color: #D9E7F8;
@@ -249,14 +253,15 @@ h1.name {
 
 .card {
 	width: 47.9%;
-	height: 200px;
+	height: 180px;
 	background-color: #EEF0F7;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 40px;
+	transition:  0.8s;
 }
 
 
@@ -266,11 +271,15 @@ h1.name {
 	font-weight: 600;
 	cursor: pointer;
 }
-
+.ext-link0{
+	color: #b31b00;
+	font-size: 15px;
+	font-weight: 600;
+}
 
 .card-active , .card:hover{
 	transform: scale(1.25);
-	transition: 0.5s;
+	transition: 0.6s;
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
 	
@@ -279,14 +288,14 @@ h1.name {
 
 .card0 {
 	width: 47.9%;
-	height: 200px;
+	height: 180px;
 	background-color: #EEF0F7;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 40px
 }
 
 
